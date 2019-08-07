@@ -1,0 +1,6 @@
+<!--parent component -->
+<p>parent-comp works!</p>
+<!--print the data fetched form the child component-->
+<h2>{{message}}</h2>
+<!--child component called-->
+<app-child-comp (childEvent)="message=$event"></app-child-comp>

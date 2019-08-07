@@ -1,0 +1,7 @@
+<!--parent component-->
+<p>scr6-component1 works!</p>
+<!--child components-->
+<!--transferred from child-->
+<app-scr6-component2 (childEvent)="onEvent($event)"></app-scr6-component2>
+<!--transferring to another child-->
+<app-scr6-component3 [parentData]="message"></app-scr6-component3>
